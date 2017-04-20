@@ -10,6 +10,19 @@ $(document).ready(function() {
   }
 
   $(".btn-analysis").click(function(){
+  $("#data1").empty();
+  $("#data2").empty();
+  $("#data3").empty();
+  $("#data4").empty();
+  $("#data5").empty();
+  $("#data6").empty();
+  $("#data7").empty();
+  $("#data8").empty();
+  $("#data9").empty();
+  $("#data10").empty();
+  $("#data11").empty();
+  $("#data12").empty();
+  $("#data13").empty();
   lettergenerator();
   showText("#data1", "....................................", 0, 50),
   showText("#data2", "....................................", 0, 50),
