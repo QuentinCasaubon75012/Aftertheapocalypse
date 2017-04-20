@@ -1,0 +1,89 @@
+.site {
+  margin: 0 0 40px 0;
+  text-transform: uppercase;
+}
+
+.col {
+  float: left;
+}
+
+.entitled {
+  text-align: center;
+}
+
+.col.two {
+  width: auto;
+  float: right;
+}
+
+.wrapper {
+  color: #00dd00;
+  font-size: 64.5%;
+  font-size: 15px;
+  font-family: 'Oxygen Mono';
+  height: 100%;
+  padding-top: 45px;
+  padding-bottom: 25px;
+    h1, h2, h3 h4, h6 {
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+}
+
+.content {
+  h5 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-family: "Oxygen Mono";
+    text-transform: uppercase;
+  }
+}
+
+#logo-v {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 200px;
+}
+
+//
+
+.top-segment {
+  background: linear-gradient(#101010 50%, rgba(16, 16, 16, 0.2) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.03));
+  background-size: 100% 3px, 6px;
+}
+
+#caret {
+  display: inline-block;
+  height: 25px;
+  width: 15px;
+  vertical-align: middle;
+  background-color: #00dd00;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.btn-home {
+  display:flex;
+  justify-content: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #00dd00;
+  padding: 20px 25px;
+  background: transparent;
+  border: 1px solid #00dd00;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.btn-home:hover {
+  color: #101010;
+  background-color: #00dd00;
+  cursor: pointer;
+}
+
