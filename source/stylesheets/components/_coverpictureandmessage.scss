@@ -1,6 +1,6 @@
 #landingcover {
-  height: auto;
-  width: auto;
+  height: 500px;
+  width: 100%;
   display: block;
   float: right;
 }
@@ -12,7 +12,7 @@
 }
 
 .startheanalysismessage {
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 40px;
   margin-bottom: 40px;
   font-family: "Oxygen Mono";
@@ -23,10 +23,11 @@
 .btn-analysis {
   display:flex;
   justify-content: center;
+  text-align: center;
   margin-left: 35%;
   margin-right: 35%;
   margin-top: 50px;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: uppercase;
   color: #00dd00;
   padding: 20px 25px;

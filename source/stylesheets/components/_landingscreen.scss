@@ -19,7 +19,7 @@
 .wrapper {
   color: #00dd00;
   font-size: 64.5%;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Oxygen Mono';
   height: 100%;
   padding-top: 45px;
@@ -32,7 +32,7 @@
 
 .content {
   h5 {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 40px;
     font-family: "Oxygen Mono";
     text-transform: uppercase;
@@ -58,9 +58,8 @@
 
 #caret {
   display: inline-block;
-  height: 25px;
+  height: 30px;
   width: 15px;
-  vertical-align: middle;
   background-color: #00dd00;
 }
 
@@ -74,7 +73,8 @@
   margin-left: 35%;
   margin-right: 35%;
   margin-top: 50px;
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
   text-transform: uppercase;
   color: #00dd00;
   padding: 20px 25px;

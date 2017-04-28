@@ -8,12 +8,12 @@ $(document).ready(function() {
   $("#launchtheanalysis").click(function() {
     $('html, body').animate({
         scrollTop: $("#analysisstarted").offset().top
-    }, 300);
+    }, 400);
   });
 
   $("#launchtheconfig").click(function() {
     $('html, body').animate({
         scrollTop: $("#configpoint").offset().top
-    }, 200);
+    }, 300);
   });
 });

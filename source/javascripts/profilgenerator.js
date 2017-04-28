@@ -13,7 +13,7 @@ $(document).ready(function() {
     $('html, body').animate({
         scrollTop: $("#scrollingpoint").offset().top
     }, 500);
-    $(".fourth-segment").animate({height:'450'});
+    $(".fourth-segment").animate({height:'370'});
   }
   $(".btn-search").click(function(){
     $(".fourth-segment").animate({height:'850'});
