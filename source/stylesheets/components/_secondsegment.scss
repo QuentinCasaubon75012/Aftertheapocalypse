@@ -5,8 +5,12 @@
   background-color: black;
 }
 
-.facing--analysis {
+#launchtheconfig {
+  position: absolute;
+  bottom: -37px;
+}
 
+.facing--analysis {
   height: 500px;
 }
 .face {
@@ -41,11 +45,12 @@
   color: black;
   }
 }
+
 .data2content {
   font-size: 12px;
   position: absolute;
   top: 88px;
-  right: 142px;
+  right: 136px;
 }
 .datadot3{
   position: absolute;
@@ -61,7 +66,7 @@
   font-size: 12px;
   position: absolute;
   top: 208px;
-  left: 4px;
+  left: 44px;
 }
 .datadot4{
   position: absolute;
@@ -77,7 +82,7 @@
   font-size: 12px;
   position: absolute;
   top: 152px;
-  right: 154px;
+  right: 149px;
 }
 .datadot5{
   position: absolute;
@@ -93,7 +98,7 @@
   font-size: 12px;
   position: absolute;
   top: 248px;
-  right: 116px;
+  right: 96px;
 }
 .datadot6{
   position: absolute;
@@ -170,7 +175,7 @@
   font-size: 12px;
   position: absolute;
   top: 130px;
-  right: 70px;
+  right: 38px;
 }
 .datadot11{
   position: absolute;
@@ -186,7 +191,7 @@
   font-size: 12px;
   position: absolute;
   top: 212px;
-  right: 80px;
+  right: 63px;
 }
 .datadot12{
   position: absolute;
@@ -202,7 +207,7 @@
   font-size: 12px;
   position: absolute;
   top: 53px;
-  right: 80px;
+  right: 67px;
 }
 .datadot13{
   position: absolute;

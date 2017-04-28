@@ -9,7 +9,7 @@ title: Quentin Casaubon
 
           <div class="site clearfix">
             <div class="col one">
-              <img src="" alt="Picture to put" width="740" height="729" id="logo-v" />
+              <%= image_tag "atom.svg", id: "logo-v" %>
             </div>
             <div class="col two">
               <p>----------------------------------------</p>
@@ -64,27 +64,27 @@ title: Quentin Casaubon
         <%= image_tag "face.png", class: "face" %>
           <div class="datadot1"><span id="data1"></span></div>
             <div class="data1content datafinder"></div>
-          <div class="data1content factdata hidden">42%</div>
+          <div class="data1content factdata hidden">42% <br> Eyes</div>
 
           <div class="datadot2"><span id="data2"></span></div>
             <div class="data2content datafinder"></div>
-          <div class="data2content factdata hidden">99%</div>
+          <div class="data2content factdata hidden">99% <br> Mole</div>
 
           <div class="datadot3 factdata"><span id="data3"></span></div>
             <div class="data3content datafinder"></div>
-          <div class="data3content factdata hidden">100%</div>
+          <div class="data3content factdata hidden">100% <br> Chin</div>
 
           <div class="datadot4"><span id="data4"></span></div>
             <div class="data4content datafinder"></div>
-          <div class="data4content factdata hidden">11%</div>
+          <div class="data4content factdata hidden">11% <br> Nose</div>
 
           <div class="datadot5"><span id="data5"></span></div>
             <div class="data5content datafinder"></div>
-          <div class="data5content factdata hidden">34%</div>
+          <div class="data5content factdata hidden">34% <br> Cotton</div>
 
           <div class="datadot6"><span id="data6"></span></div>
             <div class="data6content datafinder"></div>
-          <div class="data6content factdata hidden">98%</div>
+          <div class="data6content factdata hidden">98% <br> Hair</div>
         </div>
       </div>
       <div class="col-xs-12 col-md-6">
@@ -92,27 +92,25 @@ title: Quentin Casaubon
         <%= image_tag "profilface.png", class: "profil" %>
           <div class="datadot7"><span id="data7"></span></div>
             <div class="data7content datafinder"></div>
-          <div class="data7content factdata hidden">89%</div>
+          <div class="data7content factdata hidden">89% <br> Ear</div>
            <div class="datadot8"><span id="data8"></span></div>
             <div class="data8content datafinder"></div>
-          <div class="data8content factdata hidden">34%</div>
+          <div class="data8content factdata hidden">34% <br> Soft</div>
            <div class="datadot9"><span id="data9"></span></div>
             <div class="data9content datafinder"></div>
-          <div class="data9content factdata hidden">55%</div>
+          <div class="data9content factdata hidden">92% <br> Accurate</div>
           <div class="datadot11"><span id="data11"></span></div>
             <div class="data11content datafinder"></div>
-          <div class="data11content factdata hidden">9%</div>
+          <div class="data11content factdata hidden">2% <br> Curly</div>
           <div class="datadot12"><span id="data12"></span></div>
             <div class="data12content datafinder"></div>
-          <div class="data12content factdata hidden">9%</div>
+          <div class="data12content factdata hidden">77% <br> Deep</div>
           <div class="datadot13"><span id="data13"></span></div>
             <div class="data13content datafinder"></div>
-          <div class="data13content factdata hidden">9%</div>
+          <div class="data13content factdata hidden">9% <br> Fat</div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4 col-xs-offset-4">
+       <div class="col-xs-4 col-xs-offset-4">
         <div class="btn-config" id="launchtheconfig">
           Start configuration
         </div>
@@ -134,7 +132,7 @@ title: Quentin Casaubon
     <div class="row">
       <div class="col-xs-12">
         <div class="searching--candidate" id="configpoint"><a href="scrollingpoint"></a>
-          <h3 id="theperfectcandidate">Lets's configure him before extraction...</h3>
+          <h3 id="theperfectcandidate">Select the skills before extraction...</h3>
           <div class="field1">
             <div class="skill-selector"><%= image_tag "ruby.svg", class: "iconfield"  %><span class="skill">Ruby on Rails</span></div>
             <div class="skill-selector"><%= image_tag "growth.svg", class: "iconfield"  %><span class="skill">Growth Hacking</span></div>
@@ -154,7 +152,7 @@ title: Quentin Casaubon
       </div>
       <div class="col-xs-4 col-xs-offset-4">
           <div class="btn-search">
-            Start configuration
+            Launch
           </div>
           <p class="searchingword hidden">Configuring...</p>
           <div class="sk-folding-cube hidden">
@@ -171,8 +169,8 @@ title: Quentin Casaubon
 <section class="fifth-segment">
   <div class="container" id="scrollingpoint">
     <div class="row">
-      <div class="col-xs-12">
-        <div class="col-md-4 col-md-offset-4">
+
+        <div class="col-md-4">
           <div class="card hidden">
             <div class="card-image" style="background: linear-gradient(to bottom, rgba(0,0,0,0.1) 33%, rgba(0,0,0,0.2) 100%), url('images/myself.jpg')">
                 <span class="top-left character">Ready to use</span>
@@ -183,15 +181,37 @@ title: Quentin Casaubon
                 <span class="rating-unit">5</span><span class="rating-decimal">.0</span>
               </div>
             <span class="fullname">Quentin Casaubon</span>
+            </div>
           </div>
         </div>
-        <div class="col-md-4 col-md-offset-4">
-          <div class="btn btn-primary">
-            Download the CV
+
+        <div class="col-md-4">
+          <div id="descriptiveprofile" class="hidden">
+          This human was kept under cryogenic until someone find him. Thanks to your successful configuration, he is now ready to function. You have now the future of humanity in your hand and the perfect collaborator to help you succeed.
+          <a href="/images/MyFinalCV.pdf" target="_blank"><div class="btn-extract">Extract him</div></a>
           </div>
         </div>
+        <div class="col-md-4">
+          <div id="socialmediacontent" class="hidden">
+          <ul class="socialmedialist">
+            <li>
+              <a href="https://www.linkedin.com/in/quentin-casaubon-77409437/" target="_blank" class="socialmediaicon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </li>
+            <li>
+             <a href="https://twitter.com/CasaubonQuentin" target="_blank" class="socialmediaicon"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="mailto:quentincasaubonweb@gmail.com" class="socialmediaicon"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+          </div>
+        </div>
+        <div>
+
+        </div>
+
       </div>
-    </div>
+
   </div>
 </section>
 

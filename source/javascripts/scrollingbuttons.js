@@ -8,7 +8,7 @@ $(document).ready(function() {
   $("#launchtheanalysis").click(function() {
     $('html, body').animate({
         scrollTop: $("#analysisstarted").offset().top
-    }, 500);
+    }, 300);
   });
 
   $("#launchtheconfig").click(function() {

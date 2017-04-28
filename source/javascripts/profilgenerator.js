@@ -6,16 +6,17 @@ $(document).ready(function() {
     $(".sk-folding-cube").addClass("hidden");
     $("#theperfectcandidate").html("The perfect collaborator, based on your selection:")
     $(".card").removeClass("hidden");
+    $("#socialmediacontent").removeClass("hidden");
+    $("#descriptiveprofile").removeClass("hidden");
     $(".searchingword").addClass("hidden");
-    $(".btn-search").removeClass("hidden");
-    $(".btn-search").html("Try another configuration");
+    $(".btn-search").addClass("hidden");
     $('html, body').animate({
         scrollTop: $("#scrollingpoint").offset().top
     }, 500);
     $(".fourth-segment").animate({height:'450'});
   }
   $(".btn-search").click(function(){
-    $(".fourth-segment").animate({height:'650'});
+    $(".fourth-segment").animate({height:'850'});
     $(".card").addClass("hidden");
     $(".searchingword").removeClass("hidden");
     $("#theperfectcandidate").html("Waiting for the matching of your criterias and our database, it should be ready now...");
