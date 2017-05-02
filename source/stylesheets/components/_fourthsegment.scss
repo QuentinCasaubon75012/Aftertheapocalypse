@@ -69,7 +69,9 @@
   justify-content: center;
   text-align: center;
   margin-top: 50px;
-  font-size: 25px;
+  font-size: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
   text-transform: uppercase;
   color: #00dd00;
   padding: 20px 25px;
@@ -85,26 +87,27 @@
   cursor: pointer;
 }
 
-.btn-config {
-  display:flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 50px;
-  font-size: 25px;
-  text-transform: uppercase;
-  color: #00dd00;
-  padding: 20px 25px;
-  background: transparent;
-  border: 1px solid #00dd00;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
+// .btn-config {
+//   display:flex;
+//   justify-content: center;
+//   text-align: center;
 
-.btn-config:hover {
-  color: #101010;
-  background-color: #00dd00;
-  cursor: pointer;
-}
+//   margin-top: 50px;
+//   font-size: 25px;
+//   text-transform: uppercase;
+//   color: #00dd00;
+//   padding: 20px 25px;
+//   background: transparent;
+//   border: 1px solid #00dd00;
+//   -webkit-transition: all 0.2s ease;
+//   transition: all 0.2s ease;
+// }
+
+// .btn-config:hover {
+//   color: #101010;
+//   background-color: #00dd00;
+//   cursor: pointer;
+// }
 
 .skill-selector {
   color: #FFFFFF;
