@@ -32,11 +32,12 @@ title: Quentin Casaubon
   </div>
 </section>
 
-<div>
-  <%= image_tag "saving.jpg", id: "landingcover"%>
-</div>
 
-<section id="findingmessage">
+
+<section class="coverit">
+  <div>
+    <%= image_tag "saving.jpg", id: "landingcover"%>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
@@ -135,36 +136,46 @@ title: Quentin Casaubon
       <div class="col-xs-12">
         <div class="searching--candidate" id="configpoint"><a href="scrollingpoint"></a>
           <h3 id="theperfectcandidate">Select the skills before extraction...</h3>
-          <div class="field1">
-            <div class="skill-selector"><%= image_tag "ruby.svg", class: "iconfield"  %><span class="skill">Ruby on Rails</span></div>
-            <div class="skill-selector"><%= image_tag "growth.svg", class: "iconfield"  %><span class="skill">Growth Hacking</span></div>
-            <div class="skill-selector"><%= image_tag "digital.svg", class: "iconfield"  %><span class="skill">Digital Strategy</span></div>
-          </div>
-          <div class="field2">
-            <div class="skill-selector"><%= image_tag "lean.svg", class: "iconfield"  %><span class="skill">Lean Startup</span></div>
-            <div class="skill-selector"><%= image_tag "html.svg", class: "iconfield"  %><span class="skill">HTML/CSS/JS</span></div>
-            <div class="skill-selector"><%= image_tag "business.svg", class: "iconfield"  %><span class="skill">Business Development</span></div>
-          </div>
-          <div class="field3">
-            <div class="skill-selector"><%= image_tag "creativity.svg", class: "iconfield"  %><span class="skill">Creativity</span></div>
-            <div class="skill-selector"><%= image_tag "box.svg", class: "iconfield"  %><span class="skill">Outside the box</span></div>
-            <div class="skill-selector"><%= image_tag "team.svg", class: "iconfield"  %><span class="skill">Team work</span></div>
-          </div>
         </div>
       </div>
+
+      <div class="col-xs-12 col-md-4">
+        <div class="field1">
+          <div class="skill-selector"><%= image_tag "ruby.svg", class: "iconfield"  %><span class="skill">Ruby on Rails</span></div>
+          <div class="skill-selector"><%= image_tag "growth.svg", class: "iconfield"  %><span class="skill">Growth Hacking</span></div>
+          <div class="skill-selector"><%= image_tag "digital.svg", class: "iconfield"  %><span class="skill">Digital Strategy</span></div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-4">
+        <div class="field2">
+          <div class="skill-selector"><%= image_tag "lean.svg", class: "iconfield"  %><span class="skill">Lean Startup</span></div>
+          <div class="skill-selector"><%= image_tag "html.svg", class: "iconfield"  %><span class="skill">HTML/CSS/JS</span></div>
+          <div class="skill-selector"><%= image_tag "business.svg", class: "iconfield"  %><span class="skill">Business Development</span></div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-4">
+        <div class="field3">
+          <div class="skill-selector"><%= image_tag "creativity.svg", class: "iconfield"  %><span class="skill">Creativity</span></div>
+          <div class="skill-selector"><%= image_tag "box.svg", class: "iconfield"  %><span class="skill">Outside the box</span></div>
+          <div class="skill-selector"><%= image_tag "team.svg", class: "iconfield"  %><span class="skill">Team work</span></div>
+        </div>
+      </div>
+
       <div class="col-xs-4 col-xs-offset-4">
-          <div class="btn-search">
-            Launch
-          </div>
+        <div class="btn-search">
+          Launch
+        </div>
           <p class="searchingword hidden">Configuring...</p>
-          <div class="sk-folding-cube hidden">
-            <div class="sk-cube1 sk-cube"></div>
-            <div class="sk-cube2 sk-cube"></div>
-            <div class="sk-cube4 sk-cube"></div>
-            <div class="sk-cube3 sk-cube"></div>
-          </div>
+        <div class="sk-folding-cube hidden">
+          <div class="sk-cube1 sk-cube"></div>
+          <div class="sk-cube2 sk-cube"></div>
+          <div class="sk-cube4 sk-cube"></div>
+          <div class="sk-cube3 sk-cube"></div>
         </div>
       </div>
+
     </div>
   </div>
 </section>

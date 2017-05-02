@@ -21,12 +21,12 @@
 }
 
 .field1 {
-
   font-size: 16px;
   top: 85px;
   left: 10px;
   display:flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .field2 {
@@ -36,6 +36,7 @@
   left: 10px;
   display:flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .field3 {
@@ -45,6 +46,7 @@
   left: 10px;
   display:flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .button {
