@@ -51,10 +51,10 @@
 
 //
 
-.top-segment {
-  background: linear-gradient(#101010 50%, rgba(16, 16, 16, 0.2) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.03));
-  background-size: 100% 3px, 6px;
-}
+// .top-segment {
+//   background: linear-gradient(#101010 50%, rgba(16, 16, 16, 0.2) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.03));
+//   background-size: 100% 3px, 6px;
+// }
 
 #caret {
   display: inline-block;
@@ -68,7 +68,6 @@
 }
 
 .btn-home {
-  display:flex;
   justify-content: center;
   margin-left: 35%;
   margin-right: 35%;
@@ -82,6 +81,7 @@
   border: 1px solid #00dd00;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  align-items: flex-end;
 }
 
 .btn-home:hover {
